@@ -1,0 +1,58 @@
+1.
+double GetAvg(double x, double y) {
+  return (x + y) / 2;
+}
+
+
+2.
+void GetOddsEvens(string x, vector<int>& y) {
+  if (x == "true") {
+    for (auto a1 : y) {
+      if (a1 % 2 == 0) {
+        cout << a1 << endl;
+      }
+    }
+  }
+  if (x == "false") {
+    for (auto a2 : y) {
+      if (a2 % 2 == 1) {
+        cout << a2 << endl;
+      }
+    }
+  }
+}
+
+
+3.
+bool FindTerm(string x, vector<string>& y) {
+  bool b = false;
+  for (auto a : y) {
+    if (a == x) {
+      b = true;
+    }
+  }
+  return b;
+}
+
+4.
+bool IsPalindrome(string x) {
+  bool palindrome = false;
+  string y;
+  for (int i = x.length() - 1; i >= 0; i--) {
+    y += x.at(i);
+  }
+  if (x == y) {
+    palindrome = true;
+  }
+  return palindrome;
+}
+
+
+5.
+bool IsPalindrome(string x) {
+  bool palindrome = false;
+  if (x == (Reverse(x))) {
+    palindrome = true;
+  }
+  return palindrome;
+}

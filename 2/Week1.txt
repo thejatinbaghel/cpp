@@ -1,0 +1,67 @@
+1.
+cout << oceans[0] << endl;
+cout << oceans[1] << endl;
+cout << oceans[2] << endl;
+cout << oceans[3] << endl;
+cout << oceans[4] << endl;
+
+or
+
+for (auto i : oceans) {
+  cout << i << endl;
+}
+
+or
+
+for (int i = 0; i < sizeof(oceans)/sizeof(oceans[0]); i++) {
+  cout << oceans[i] << endl;
+}
+
+
+2.
+oceans.push_back("Pacific");
+oceans.push_back("Atlantic");
+oceans.push_back("Indian");
+oceans.push_back("Arctic");
+oceans.push_back("Southern");
+oceans.push_back("Place Holder");
+oceans.at(5) = "Delete";
+oceans.pop_back();
+
+
+3.
+reverse.push_back(argv[3]);
+reverse.push_back(argv[2]);
+reverse.push_back(argv[1]);
+reverse.erase(reverse.begin());
+reverse.erase(reverse.begin());
+reverse.erase(reverse.begin());
+
+4.
+nums[0][0] = a;
+nums[0][1] = b;
+nums[0][2] = a + b;
+nums[1][0] = c;
+nums[1][1] = d;
+nums[1][2] = c + d;
+nums[2][0] = a + c;
+nums[2][1] = b + d;
+nums[2][2] = ((a+b) + (c+d) + (a+c) + (b+d)); //or 2(a+b+c+d)
+
+
+5.
+numList.push_back(input);
+
+or
+
+for (auto a : numList) {
+  total += a;
+  avg = total / numList.size();
+}
+
+or
+
+for (int i = 0; i < numList.size(); i++) {
+  total += numList.at(i);
+  avg = total / numList.size();
+}

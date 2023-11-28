@@ -1,0 +1,38 @@
+Week 1 lab
+Lab challenge.
+cout<<greeting<<" Today is "<<dayOfWeek<<", "<<month<<endl;
+cout<<"The curent wait time is "<<int currentWaitMinutes<<" minutes.";
+
+Week 1 last
+1.
+bool my_bool;
+my_bool = true;
+cout<<my_bool<<endl;
+my_bool=test;
+cout<<my_bool;
+
+
+2.
+int my_int ;
+my_int = first_num;
+cout<<my_int<<endl;
+my_int = second_num;
+cout<<my_int<<endl;
+my_int=third_num;
+cout<<my_int<<endl;
+
+
+3.
+cout<<line1<<endl;
+cout<<line2<<endl;
+
+
+4.
+double my_double = 3.14;
+cout<<my_double<<endl;
+my_double=number;
+cout<<my_double;
+
+5.
+cout<<"Okay, ";
+cout<<"it is time to learn about operators.";

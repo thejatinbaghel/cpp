@@ -1,0 +1,58 @@
+
+
+Week 4 last
+1.
+for(int i = 0; i < 3; i++) {
+  tina.forward(100);
+  tina.left(120);
+}
+
+
+
+2.
+int i = 0;
+while (i < 10) {
+  cout << x << endl;
+  i++;
+}
+
+
+
+3.
+int sum = 0;
+  
+for (int iter = a; iter <= b; iter++) {
+  sum += iter;
+}
+  
+if (a == b) {
+  sum = a;
+}
+  
+cout << sum << endl;
+
+
+
+4.
+for (int i = 100; i <= 100; i--) {
+  if (i == 0) {
+    cout << "Print me!" << endl;
+    break;
+  }
+  else {
+    while (true) {
+      break;
+      i++;
+      cout << "Don't print me!" << endl;
+    }
+  }
+}
+
+
+5.
+for (int i = 1; i < 6; i++) {
+  for (int j = 5 - i; j > 0; j--) {
+    cout << ".";
+  }
+  cout << i << endl;
+}

@@ -1,0 +1,57 @@
+1.
+class PracticeClass {
+  public:
+    string name;
+};
+
+
+2.
+class Cat {
+  public:
+    string breed;
+    string color;
+    string name;
+  
+  Cat() {
+    breed = "American Shorthair";
+    color = "black";
+    name = "Kiwi";
+  }
+};
+
+
+3.
+class Superhero {
+  public:
+    string name;
+    string identity;
+    vector<string> powers;
+  
+  Superhero(string n, string id, vector<string> p) {
+    name = n;
+    identity = id;
+    powers = p;
+  }
+};
+
+
+4.
+class Observation {
+  public:
+    string date;
+    double temperature;
+    double elevation;
+    int penguins;
+    double precipitation = 0;
+  
+  Observation(string d, double t, double e, int p) {
+    date = d;
+    temperature = t;
+    elevation = e;
+    penguins = p;
+  }
+};
+
+
+5.
+BigCat snow_leopard("uncia", "snow leopard", {"Himalaya mountains", "Siberian mountains"});

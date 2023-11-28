@@ -1,0 +1,25 @@
+
+Week 2 last
+1.
+int a = 4;
+int b = 9;
+
+2.
+cout << boolalpha << ( 5 == 4 ) << endl;
+cout << boolalpha << ( ! (5 < 8 && 6 >= 2) ) << endl;
+cout << boolalpha << ( 5 > 8 || 6 < 2 );
+
+
+3.
+string a = "Hello ";
+string b = "world";
+cout << (a + b) << endl;
+
+4.
+double seven = 7.0;
+double two = 2.0;
+cout << ( seven / two ) << endl;
+
+5.
+int sum = stoi(num1) + stoi(num2);
+cout << ( num1 + " + " + num2 + " = " + to_string(sum) ) << endl;

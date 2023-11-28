@@ -1,0 +1,53 @@
+1.
+int RecursiveSum(int n) {
+  if (n == 0) {
+    return 0;
+  }
+  else {
+    return n + RecursiveSum(n - 1);
+  }
+}
+
+
+2.
+int ListSum(vector<int>& nums) {
+  if (nums.size() == 1) {
+    return nums.at(0);
+  }
+  else {
+    vector<int> new_vector(nums.begin() + 1, nums.begin() + nums.size());
+    return nums.at(0) + ListSum(new_vector);
+  }
+}
+
+3.
+int BunnyEars(int n) {
+  if (n == 0) {
+    return 0;
+  }
+  else {
+    return 2 + BunnyEars(n - 1);
+  }
+}
+
+
+4.
+string ReverseString(string s) {
+  if (s.length() == 1) {
+    return s;
+  }
+  else {
+    return s.substr(s.length() - 1) + ReverseString(s.substr(0, s.length() - 1));
+  }
+}
+
+5.
+int GetMax(vector<int>& nums) {
+  if (nums.size() == 1) {
+    return nums.at(0);
+  }
+  else {
+    vector<int> new_vector(nums.begin() + 1, nums.begin() + nums.size());
+    return max(nums.at(0), GetMax(new_vector));
+  }
+}
