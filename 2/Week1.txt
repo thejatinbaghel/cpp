@@ -5,18 +5,6 @@ cout << oceans[2] << endl;
 cout << oceans[3] << endl;
 cout << oceans[4] << endl;
 
-or
-
-for (auto i : oceans) {
-  cout << i << endl;
-}
-
-or
-
-for (int i = 0; i < sizeof(oceans)/sizeof(oceans[0]); i++) {
-  cout << oceans[i] << endl;
-}
-
 
 2.
 oceans.push_back("Pacific");
@@ -50,10 +38,6 @@ nums[2][2] = ((a+b) + (c+d) + (a+c) + (b+d)); //or 2(a+b+c+d)
 
 
 5.
-numList.push_back(input);
-
-or
-
 for (auto a : numList) {
   total += a;
   avg = total / numList.size();
