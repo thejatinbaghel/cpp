@@ -1,9 +1,4 @@
-Week 1 lab
-Lab challenge.
-cout<<greeting<<" Today is "<<dayOfWeek<<", "<<month<<endl;
-cout<<"The curent wait time is "<<int currentWaitMinutes<<" minutes.";
 
-Week 1 last
 1.
 bool my_bool;
 my_bool = true;
